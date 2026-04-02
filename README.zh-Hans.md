@@ -1,5 +1,8 @@
 # Cappt Skills
 
+[![Build](https://img.shields.io/github/actions/workflow/status/cappt-team/skills/release.yml?label=Build)](https://github.com/cappt-team/skills/actions/workflows/release.yml)
+[![Release](https://img.shields.io/github/v/release/cappt-team/skills?label=Release)](https://github.com/cappt-team/skills/releases/latest)
+
 基于 [Cappt](https://cappt.cc) 的 AI 演示文稿生成 Skills。
 
 ## 可用 Skills

@@ -1,5 +1,8 @@
 # Cappt Skills
 
+[![Build](https://img.shields.io/github/actions/workflow/status/cappt-team/skills/release.yml?label=Build)](https://github.com/cappt-team/skills/actions/workflows/release.yml)
+[![Release](https://img.shields.io/github/v/release/cappt-team/skills?label=Release)](https://github.com/cappt-team/skills/releases/latest)
+
 AI-powered presentation generation, powered by [Cappt](https://cappt.cc).
 
 [中文文档](./README.zh-Hans.md)
