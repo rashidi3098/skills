@@ -68,6 +68,12 @@ cappt login --token <用户粘贴的 token>
 
 两项检查均通过后，进入工作流。
 
+> **环境变量快捷方式**：若用户提到使用环境变量，可跳过登录流程：
+> - `CAPPT_TOKEN=<token>`：直接传入认证 token，优先级高于本地缓存
+> - `CAPPT_BASE_URL=<url>`：覆盖默认 API 地址（默认 `https://api.cappt.cc`），适用于私有部署或测试环境
+>
+> 示例：`CAPPT_TOKEN=xxx CAPPT_BASE_URL=https://api.b.cappt.cc cappt generate --outline-file outline.md`
+
 ## 工作流
 
 按顺序执行以下四步，不可跳过任何一步。
