@@ -76,7 +76,11 @@ else
     exit 1
 fi
 
-LATEST_TAG="$(echo "$releases_json" | grep -o '"tag_name": *"v[^"]*"' | head -1 | grep -o 'v[^"]*')"
+if command -v jq &>/dev/null; then
+    LATEST_TAG="$(echo "$releases_json" | jq -r '.[] | select(.tag_name | startswith("v")) | .tag_name' | head -1)"
+else
+    LATEST_TAG="$(echo "$releases_json" | grep -o '"tag_name": *"v[^"]*"' | head -1 | grep -o 'v[^"]*')"
+fi
 if [[ -z "$LATEST_TAG" ]]; then
     log_error "No release found (expected tag format: v*)"
     exit 1
